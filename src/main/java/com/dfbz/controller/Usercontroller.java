@@ -21,6 +21,7 @@ public class Usercontroller {
     @RequestMapping("findall.do")
     public @ResponseBody List<User> findall(){
         System.out.println(111);
+        System.out.println(222);
         return serviceImp.findAll();
     }
 
